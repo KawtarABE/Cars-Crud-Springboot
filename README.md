@@ -4,7 +4,6 @@ This project is a car Management System, a robust and user-friendly solution des
 ## Table of Contents
 * [General Information](#general-information)
 * [Technologies Used](#technologies-used)
-* [Features](#features)
 * [Setup](#setup)
 * [Usage](#usage)
 * [Screenshots](#screenshots)
@@ -42,24 +41,9 @@ The file structure of the project is the following:
 
 
 ## Technologies Used
-[![PHP](https://skillicons.dev/icons?i=php,html,css,js,mysql)](https://skillicons.dev)
+[![PHP](https://skillicons.dev/icons?i=java,springboot,docker,mariadb)](https://skillicons.dev)
 
 
-
-## Main Features
-### Admin Panel:
-- Manage patient/doctor accounts.
-- Manage diseases/categories defined in the platform.
-- Manage consultations.
-
-### Doctor Dashboard:
-- View and Respond to different consultations by category.
-- View the profile and various diseases of patients who have submitted consultations.
-- View the history of consultations they have responded to and modify responses.
-
-### Patient Interface:
-- View public questions from other patients and the responses from doctors.
-- Add a consultation and track responses.
 
 
 ## Setup
