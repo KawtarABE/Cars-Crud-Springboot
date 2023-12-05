@@ -24,7 +24,7 @@ It's noteworthy that all the Docker images utilized in our project are hosted on
 
 
 ### Technologies Used
-[![Tech Stack](https://skillicons.dev/icons?i=java,spring,docker,mariadb,react)](https://skillicons.dev)
+[![Tech Stack](https://skillicons.dev/icons?i=java,spring,docker,maria,react)](https://skillicons.dev)
 
 
 
