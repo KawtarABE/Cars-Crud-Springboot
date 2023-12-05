@@ -3,9 +3,7 @@ This project is a car Management System, a robust and user-friendly solution des
 
 ## Table of Contents
 * [General Information](#general-information)
-* [Technologies Used](#technologies-used)
 * [Setup](#setup)
-* [Usage](#usage)
 * [Screenshots](#screenshots)
 
 
@@ -26,7 +24,7 @@ It's noteworthy that all the Docker images utilized in our project are hosted on
 
 
 ### Technologies Used
-[![PHP](https://skillicons.dev/icons?i=java,springboot,docker,mariadb,react)](https://skillicons.dev)
+[![Tech Stack](https://skillicons.dev/icons?i=java,spring-boot,docker,mariadb,react)](https://skillicons.dev)
 
 
 
@@ -45,9 +43,11 @@ To effortlessly access and launch the project:
 ## Screenshots
 ### Home Page
 ![Example screenshot](Screenshots/home.png)
-### Admin dashboard 
-![Example screenshot](Screenshots/Dashboard.png)
-### Blog page
-![Example screenshot](Screenshots/Blog.png)
-### Consultations page
-![Example screenshot](Screenshots/consultations.png)
+### Cars list
+![Example screenshot](Screenshots/list.png)
+### Add Car
+![Example screenshot](Screenshots/add.png)
+### Edit car
+![Example screenshot](Screenshots/update.png)
+### Delete car
+![Example screenshot](Screenshots/delete.png)
