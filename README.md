@@ -18,8 +18,11 @@ The Model-View-Controller (MVC) architectural pattern is employed in our project
 - Controller: Acts as an intermediary between the Model and View components. It processes user input from the View, updates the Model accordingly, and triggers the appropriate changes in the View. The Controller essentially manages the flow of data and ensures the separation of concerns.
 
 ### Containerization of the project
-The containerization of our project has been streamlined and simplified through the use of a Docker Compose file, which orchestrates the deployment of three Docker containers. These containers encapsulate distinct components of our application: one for the MySQL database, another for the Spring Boot application, and a third for the React frontend. Interconnected within the app-network, this approach facilitates seamless communication among containers. The mysqldb service initializes a MySQL container with specific configurations, such as exposing port 3307 on the host and setting up a MySQL database named "miola" with a root password of "root." The springboot-app service launches a container for the Spring Boot application, configuring environment variables to establish connectivity with the MySQL database. Lastly, the react-frontend service creates a container for the React application, exposing port 3000 on the host. This containerization strategy enhances project manageability by allowing centralized control over all three containers through a single command, optimizing deployment efficiency and ensuring consistent functionality across development environments.
-Furthermore, it's noteworthy that all the Docker images utilized in our project are hosted on Docker Hub under the account "kawtar001." This centralized repository ensures easy accessibility and retrieval of the necessary container images for the MySQL, Spring Boot, and React components.
+The containerization of our project has been streamlined and simplified through the use of a Docker Compose file, which orchestrates the deployment of three Docker containers. 
+- One for the MySQL database.
+- Another for the Spring Boot application.
+- A third for the React frontend. Interconnected within the app-network. The mysqldb service initializes a MySQL container with specific configurations, such as
+It's noteworthy that all the Docker images utilized in our project are hosted on Docker Hub under the account **"kawtar001"** This centralized repository ensures easy accessibility and retrieval of the necessary container images for the MySQL, Spring Boot, and React components.
 
 
 ### Technologies Used
